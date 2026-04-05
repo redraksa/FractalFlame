@@ -10,14 +10,14 @@ public class SampleTest {
 
     @Test
     void student_shouldHaveCorrectNameAndGrade() {
-        // Arrange
+
         Student student = Instancio.create(Student.class);
 
-        // Act
+
         String name = student.name();
         int grade = student.grade();
 
-        // Assert
+
         assertThat(name).isEqualTo(student.name());
         assertThat(grade).isEqualTo(student.grade());
     }
