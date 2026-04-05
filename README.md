@@ -29,4 +29,5 @@
 mvn exec:java -Dexec.mainClass="academy.Application" -Dexec.args="--config=config.json --threads=16" -DargLine="-Xmx4G -XX:+UseParallelGC"
 
 Проект включает в себя тесты производительности (RenderBenchmarkTest) для замера ускорения при масштабировании количества потоков.
+Пример работы алгоритма cyberpunk\_nebula.png
 
